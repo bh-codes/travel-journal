@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-container {
+  background-color: #F55A5A;
+  height: 55px;
+  width: 100%;
+}
+
+.title {
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
