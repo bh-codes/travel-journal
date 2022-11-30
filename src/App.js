@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header"
 import Places from "./components/Places"
@@ -8,14 +7,14 @@ function App() {
   let place = data.map(location => {
     return <Places 
               key={location.id}
-              location={location}
+              {...location}
             />
   })
   return (
-    <body>
+    <main>
       <Header />
       {place}
-    </body>
+    </main>
   );
 }
 
