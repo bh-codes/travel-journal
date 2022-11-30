@@ -1,6 +1,16 @@
 export default [
     {
         id: 1,
+        title: "Disney World",
+        location: "United States",
+        googleMapsUrl: "https://goo.gl/maps/phJPeV74m1Vmu9mJ9",
+        startDate: "18 Sept, 2022",
+        endDate: "23 Sept, 2022",
+        description: 'Well-known attraction comprising large resorts, dining, shops & 4 theme parks with rides & shows (aka "The Greatest Place on Earth").',
+        imageUrl: require("./img/disney-world.jpg")
+    },
+    {   
+        id: 2,
         title: "Eiffel Tower",
         location: "France",
         googleMapsUrl: "https://goo.gl/maps/3VYqxfsPkxQDYPEJ8",
@@ -10,7 +20,7 @@ export default [
         imageUrl: require("./img/eiffel-tower.jpg")
     },
     {   
-        id: 2,
+        id: 3,
         title: "Seoul",
         location: "South Korea",
         googleMapsUrl: "https://goo.gl/maps/UQXZhPx6CTjCGrFM6",
@@ -20,7 +30,7 @@ export default [
         imageUrl: require("./img/seoul-tower.jpg")
     },
     {   
-        id: 3,
+        id: 4,
         title: "Fuerteventura",
         location: "Spain",
         googleMapsUrl: "https://goo.gl/maps/HejctZDNXUstZCPJ9",
